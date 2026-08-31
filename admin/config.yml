@@ -1,0 +1,152 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+locale: "de"
+
+collections:
+  - name: "seite"
+    label: "Website-Inhalte"
+    files:
+      - name: "content"
+        label: "Texte & Inhalte"
+        file: "content.json"
+        fields:
+          - label: "Hero (oberster Bereich)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow (kleiner Text über der Headline)", name: "eyebrow", widget: "string" }
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Subtext", name: "subtext", widget: "text" }
+              - { label: "Button-Text", name: "cta_label", widget: "string" }
+              - { label: "Vertrauens-Text (bei den Sternen)", name: "trust_text", widget: "string" }
+
+          - label: "Premium-Paradoxon (Problem-Abschnitt)"
+            name: "premium"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Headline – Teil 1 (vor der Hervorhebung)", name: "headline_pre", widget: "string" }
+              - { label: "Headline – hervorgehoben (fett/kursiv)", name: "headline_highlight", widget: "string" }
+              - { label: "Headline – Teil 2 (nach der Hervorhebung)", name: "headline_post", widget: "string" }
+              - { label: "Absatz 1", name: "body1", widget: "text" }
+              - { label: "Absatz 2", name: "body2", widget: "string" }
+
+          - label: "Statistik-Banner"
+            name: "stats"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - label: "LinkedIn-Box"
+                name: "linkedin"
+                widget: "object"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Wert (z. B. +177 %)", name: "value", widget: "string" }
+                  - { label: "Beschreibungstext", name: "text", widget: "text" }
+              - label: "Instagram-Box"
+                name: "instagram"
+                widget: "object"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Wert (z. B. 13.155)", name: "value", widget: "string" }
+                  - { label: "Beschreibungstext", name: "text", widget: "text" }
+
+          - label: "Über mich"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Rolle / Untertitel", name: "role", widget: "string" }
+              - { label: "Absatz 1", name: "p1", widget: "text" }
+              - { label: "Absatz 2 – Teil 1 (vor der Hervorhebung)", name: "p2_pre", widget: "text" }
+              - { label: "Absatz 2 – hervorgehoben", name: "p2_highlight", widget: "string" }
+              - { label: "Absatz 2 – Teil 2 (nach der Hervorhebung)", name: "p2_post", widget: "text" }
+              - { label: "Button-Text", name: "cta_label", widget: "string" }
+
+          - label: "Angebot (Pakete)"
+            name: "angebot"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Intro-Text", name: "intro", widget: "text" }
+              - label: "Paket: Essential"
+                name: "essential"
+                widget: "object"
+                fields:
+                  - { label: "Titel", name: "title", widget: "string" }
+                  - { label: "Untertitel", name: "subtitle", widget: "string" }
+                  - label: "Leistungen (Häkchen-Liste)"
+                    name: "features"
+                    widget: "list"
+                    field: { label: "Punkt", name: "item", widget: "string" }
+                  - { label: "Fußnotiz (z. B. Mindestlaufzeit)", name: "note", widget: "string" }
+              - label: "Paket: Full Service"
+                name: "fullservice"
+                widget: "object"
+                fields:
+                  - { label: "Titel", name: "title", widget: "string" }
+                  - { label: "Untertitel", name: "subtitle", widget: "string" }
+                  - label: "Leistungen (Häkchen-Liste)"
+                    name: "features"
+                    widget: "list"
+                    field: { label: "Punkt", name: "item", widget: "string" }
+                  - { label: "Fußnotiz (z. B. Mindestlaufzeit)", name: "note", widget: "string" }
+              - label: "Zusätzlich buchbar"
+                name: "extras"
+                widget: "object"
+                fields:
+                  - { label: "Überschrift", name: "headline", widget: "string" }
+                  - { label: "Intro-Text", name: "intro", widget: "text" }
+                  - label: "Leistungen (genau 6, in dieser Reihenfolge)"
+                    name: "items"
+                    widget: "list"
+                    field: { label: "Leistung", name: "item", widget: "string" }
+
+          - label: "Ablauf (5 Schritte)"
+            name: "ablauf"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Subtext", name: "subtext", widget: "text" }
+              - label: "Schritte (genau 5, in dieser Reihenfolge)"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - { label: "Titel", name: "title", widget: "string" }
+                  - { label: "Text", name: "text", widget: "text" }
+
+          - label: "Kundenstimmen"
+            name: "testimonials"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Headline", name: "headline", widget: "string" }
+              - label: "Zitate (genau 4, in dieser Reihenfolge: Jenny, Maria, Dana, Karsten)"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Zitat", name: "quote", widget: "text" }
+
+          - label: "Kontakt"
+            name: "kontakt"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Subtext", name: "subtext", widget: "string" }
+              - { label: "Text über dem Kalender", name: "calendar_intro", widget: "text" }
+              - { label: "Fußnotiz", name: "footnote", widget: "string" }
+
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Tagline", name: "tagline", widget: "text" }
