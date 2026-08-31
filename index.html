@@ -93,20 +93,8 @@
 
     @media(prefers-reduced-motion:reduce){ .reveal { animation:none; transition:none; opacity:1; transform:none; } }
   </style>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body class="antialiased">
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", function (user) {
-      if (!user) {
-        window.netlifyIdentity.on("login", function () {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
 
 <!-- ════════════════════════════════════════════
      NAVBAR
