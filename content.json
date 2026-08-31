@@ -1,31 +1,37 @@
 {
-  "hero": {
-    "eyebrow": "Social Media Management für Selbstständige & Personal Brands",
-    "headline": "Ein Auftritt, der zeigt, was du wert bist.",
-    "subtext": "Ich übernehme Strategie, Content und Design für dein Instagram – damit dein Auftritt endlich zu deinen Preisen passt und aus Followern Anfragen werden.",
-    "cta_label": "Kostenloses Erstgespräch buchen",
-    "trust_text": "Social Media Managerin & Grafikdesignerin aus Dresden"
+  "kontakt": {
+    "eyebrow": "Direktbuchung",
+    "headline": "Machen wir deine Sichtbarkeit zu deiner Kundenquelle.",
+    "subtext": "30 Minuten · Video-Call · Unverbindlich",
+    "calendar_intro": "Wähl direkt einen freien Termin – ich melde mich anschließend persönlich zur Bestätigung.",
+    "footnote": "Social Media Managerin in Dresden – ich betreue Kundinnen remote in ganz Deutschland."
   },
-  "premium": {
-    "eyebrow": "Ein bekanntes Problem",
-    "headline_pre": "Du nimmst ",
-    "headline_highlight": "Premium-Preise",
-    "headline_post": " – aber dein Instagram sieht noch nicht danach aus.",
-    "body1": "Dir fehlen Zeit und Ideen für Content. Du postest, erreichst aber nicht die Richtigen. Der Algorithmus bleibt ein Rätsel. Und obwohl du mehr Anfragen über Social Media willst, weißt du nicht genau, wie.",
-    "body2": "Das lässt sich lösen – mit einem klaren System statt Zufallsprinzip."
-  },
-  "stats": {
-    "eyebrow": "Was strategischer Content bewirkt",
-    "linkedin": {
-      "label": "LinkedIn",
-      "value": "+177 %",
-      "text": "Wachstum bei den Impressions binnen 2 Monaten – bei konstant 4 Beiträgen pro Woche plus aktivem Netzwerken und Engagement."
-    },
-    "instagram": {
-      "label": "Instagram",
-      "value": "13.155",
-      "text": "Aufrufe und 19 neue Follower – erzielt in nur 2 Wochen aktivem Posten und ersten Reel-Tests."
-    }
+  "ablauf": {
+    "eyebrow": "Der Ablauf",
+    "headline": "So läuft unsere Zusammenarbeit ab",
+    "subtext": "Kein Chaos, kein Rätselraten – du weißt jederzeit, wo wir stehen.",
+    "steps": [
+      {
+        "title": "Kennenlerncall",
+        "text": "Wir lernen uns kennen und klären, ob es passt."
+      },
+      {
+        "title": "Angebot & Onboarding",
+        "text": "Dein individuelles Paket, plus Deep Dive in dein Business und deine Marke."
+      },
+      {
+        "title": "Strategie",
+        "text": "Deine persönliche Kanal-Strategie, gemeinsam abgestimmt."
+      },
+      {
+        "title": "Umsetzung",
+        "text": "Content wird erstellt und geht nach deiner Freigabe online."
+      },
+      {
+        "title": "Analyse & Anpassung",
+        "text": "Monatlicher Check-in – Strategie wird auf Basis der Zahlen laufend geschärft."
+      }
+    ]
   },
   "about": {
     "eyebrow": "Über mich",
@@ -36,6 +42,42 @@
     "p2_highlight": "strategischen Content",
     "p2_post": " mit einem geschulten Blick für Ästhetik – als Social Media Managerin für Selbstständige und Personal Brands, die auf Instagram endlich so wirken wollen, wie sie wirklich sind.",
     "cta_label": "Call buchen"
+  },
+  "testimonials": {
+    "eyebrow": "Feedback",
+    "headline": "Das sagen meine Kund:innen",
+    "items": [
+      {
+        "quote": "„Die Kommunikation war die ganze Zeit hinweg sehr freundlich und offen. Lorena hat durch gezielte Fragen meine vagen Vorstellungen in tolle Entwürfe umsetzen können. Ich kann Lorena wärmstens weiterempfehlen!\""
+      },
+      {
+        "quote": "„Lorena geht feinfühlig auf die Wünsche ihrer Kund*innen ein. Ich schätze die Zusammenarbeit mit ihr sehr, da sie neben meinen Vorstellungen auch eigeninitiativ Verbesserungsvorschläge und neue Ideen einbringt.\""
+      },
+      {
+        "quote": "„Die Zusammenarbeit mit Lorena war äußerst positiv. Sie hat ein bemerkenswertes Gespür für Ästhetik und Details. Die Kommunikation war angenehm und professionell. Das Ergebnis hat meine Erwartungen sogar noch übertroffen.\""
+      },
+      {
+        "quote": "„Die alte Seite war veraltet – die neue repräsentiert mein Unternehmen endlich professionell. Klare Empfehlung!\""
+      }
+    ]
+  },
+  "premium": {
+    "eyebrow": "Gehts dir auch so?",
+    "headline_pre": "Dir fehlt die",
+    "headline_highlight": "Zeit und die Ideen",
+    "headline_post": "damit dein Account auch wirklich anfängt zu wachsen.",
+    "body1": "Du postest, erreichst aber nicht die Richtigen. Der Algorithmus bleibt ein Rätsel und obwohl du dir fest vornimmst regelmäßig Content zu posten, scheiterst du jedes Mal aufs neue daran wirklich dran zu bleiben.",
+    "body2": "Keine Sorge, dann bist du bei mir genau richtig!"
+  },
+  "hero": {
+    "eyebrow": "Social Media Management für Selbstständige & Business Coaches",
+    "headline": "Schluss mit dem starren Blick aufs Handy und der ständigen Frage, was du posten sollst.",
+    "subtext": "Statt zu hoffen, dass dein Content irgendwas bewirkt, gehst du hier mit einer fertigen Strategie raus, die exakt auf dich und deine Brand zugeschnitten ist. Ich möchte, dass Social Media für dich zur Kundenquelle wird.",
+    "cta_label": "Kostenloses Erstgespräch buchen",
+    "trust_text": "Remote Social Media Managerin & Grafikdesignerin aus Dresden"
+  },
+  "footer": {
+    "tagline": "Social Media Management und Content Creation für Selbstständige und Personal Brands."
   },
   "angebot": {
     "eyebrow": "Angebot",
@@ -81,36 +123,17 @@
       ]
     }
   },
-  "ablauf": {
-    "eyebrow": "Der Ablauf",
-    "headline": "So läuft unsere Zusammenarbeit ab",
-    "subtext": "Kein Chaos, kein Rätselraten – du weißt jederzeit, wo wir stehen.",
-    "steps": [
-      { "title": "Kennenlerncall", "text": "Wir lernen uns kennen und klären, ob es passt." },
-      { "title": "Angebot & Onboarding", "text": "Dein individuelles Paket, plus Deep Dive in dein Business und deine Marke." },
-      { "title": "Strategie", "text": "Deine persönliche Kanal-Strategie, gemeinsam abgestimmt." },
-      { "title": "Umsetzung", "text": "Content wird erstellt und geht nach deiner Freigabe online." },
-      { "title": "Analyse & Anpassung", "text": "Monatlicher Check-in – Strategie wird auf Basis der Zahlen laufend geschärft." }
-    ]
-  },
-  "testimonials": {
-    "eyebrow": "Feedback",
-    "headline": "Das sagen meine Kund:innen",
-    "items": [
-      { "quote": "„Die Kommunikation war die ganze Zeit hinweg sehr freundlich und offen. Lorena hat durch gezielte Fragen meine vagen Vorstellungen in tolle Entwürfe umsetzen können. Ich kann Lorena wärmstens weiterempfehlen!\"" },
-      { "quote": "„Lorena geht feinfühlig auf die Wünsche ihrer Kund*innen ein. Ich schätze die Zusammenarbeit mit ihr sehr, da sie neben meinen Vorstellungen auch eigeninitiativ Verbesserungsvorschläge und neue Ideen einbringt.\"" },
-      { "quote": "„Die Zusammenarbeit mit Lorena war äußerst positiv. Sie hat ein bemerkenswertes Gespür für Ästhetik und Details. Die Kommunikation war angenehm und professionell. Das Ergebnis hat meine Erwartungen sogar noch übertroffen.\"" },
-      { "quote": "„Die alte Seite war veraltet – die neue repräsentiert mein Unternehmen endlich professionell. Klare Empfehlung!\"" }
-    ]
-  },
-  "kontakt": {
-    "eyebrow": "Direktbuchung",
-    "headline": "Machen wir deine Sichtbarkeit zu deiner Kundenquelle.",
-    "subtext": "30 Minuten · Video-Call · Unverbindlich",
-    "calendar_intro": "Wähl direkt einen freien Termin – ich melde mich anschließend persönlich zur Bestätigung.",
-    "footnote": "Social Media Managerin in Dresden – ich betreue Kundinnen remote in ganz Deutschland."
-  },
-  "footer": {
-    "tagline": "Social Media Management und Content Creation für Selbstständige und Personal Brands."
+  "stats": {
+    "eyebrow": "Was strategischer Content bewirkt",
+    "linkedin": {
+      "label": "LinkedIn",
+      "value": "+177 %",
+      "text": "Wachstum bei den Impressions binnen 2 Monaten – bei konstant 4 Beiträgen pro Woche plus aktivem Netzwerken und Engagement."
+    },
+    "instagram": {
+      "label": "Instagram",
+      "value": "13.155",
+      "text": "Aufrufe und 19 neue Follower – erzielt in nur 2 Wochen aktivem Posten und ersten Reel-Tests."
+    }
   }
 }
