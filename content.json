@@ -1,10 +1,10 @@
 {
   "kontakt": {
     "eyebrow": "Direktbuchung",
-    "headline": "Machen wir deine Sichtbarkeit zu deiner Kundenquelle.",
+    "headline": "Lass uns quatschen! Machen wir deine Sichtbarkeit zu deiner Kundenquelle. ",
     "subtext": "30 Minuten · Video-Call · Unverbindlich",
-    "calendar_intro": "Wähl direkt einen freien Termin – ich melde mich anschließend persönlich zur Bestätigung.",
-    "footnote": "Social Media Managerin in Dresden – ich betreue Kundinnen remote in ganz Deutschland."
+    "calendar_intro": "Wähl dir einen freien Termin aus, du bekommst im Anschluss eine Bestätigung per Mail.",
+    "footnote": "Social Media Managerin aus Dresden – ich betreue Kund*innen remote im ganzen DACH-Raum."
   },
   "ablauf": {
     "eyebrow": "Der Ablauf",
@@ -13,23 +13,23 @@
     "steps": [
       {
         "title": "Kennenlerncall",
-        "text": "Wir lernen uns kennen und klären, ob es passt."
+        "text": "Wir lernen uns kennen und klären, ob alles passt."
       },
       {
         "title": "Angebot & Onboarding",
-        "text": "Dein individuelles Paket, plus Deep Dive in dein Business und deine Marke."
+        "text": "Dein individuelles Angebot, plus Deep Dive in dein Business und deine Ziele und Zielgruppe."
       },
       {
         "title": "Strategie",
-        "text": "Deine persönliche Kanal-Strategie, gemeinsam abgestimmt."
+        "text": "Deine persönliche Kanal-Strategie, mit dir zusammen abgestimmt."
       },
       {
         "title": "Umsetzung",
-        "text": "Content wird erstellt und geht nach deiner Freigabe online."
+        "text": "Ich erstelle deinen und du gibst grünes Licht und deine ersten Posts gehen online."
       },
       {
         "title": "Analyse & Anpassung",
-        "text": "Monatlicher Check-in – Strategie wird auf Basis der Zahlen laufend geschärft."
+        "text": "Monatlicher Check-in und Analyse als Basis für zukünftigen Content."
       }
     ]
   },
@@ -37,11 +37,11 @@
     "eyebrow": "Über mich",
     "name": "Lorena Bindszus",
     "role": "Social Media Managerin · Zertifizierte Grafikdesignerin",
-    "p1": "Mit 18 bin ich mit einem Oneway-Ticket und 10.000 € Ersparnissen nach Asien geflogen – ohne genauen Plan, wohin es beruflich gehen soll. Dort habe ich Menschen getroffen, die ortsunabhängig arbeiten und trotzdem gutes Geld verdienen. Dieser Weg hat mich seitdem nicht mehr losgelassen.",
-    "p2_pre": "In den Jahren danach habe ich mir Grafikdesign, Sales und Social Media Management selbst beigebracht und über 8.000 € in Weiterbildungen investiert. Heute verbinde ich ",
-    "p2_highlight": "strategischen Content",
-    "p2_post": " mit einem geschulten Blick für Ästhetik – als Social Media Managerin für Selbstständige und Personal Brands, die auf Instagram endlich so wirken wollen, wie sie wirklich sind.",
-    "cta_label": "Call buchen"
+    "p1": "Mit 18 bin ich mit einem Oneway-Ticket und 10.000 € Ersparnissen das erste Mal nach Asien, voller Abenteuerlust und ohne genauen Plan, wohin es dannach beruflich gehen soll. Auf Bali traf ich Menschen, die komplett ortsunabhängig arbeiteten und trotzdem Reisen konnten und Ihre Freiheit genossen. Dieser Lifestyle hat mich insiriert und seitdem nicht mehr losgelassen.",
+    "p2_pre": "Also machte ich es mir zur Aufgabe, mir auch so ein Leben aufzubauen. In den folgenden Jahren und auf während zwei weiteren Asienreisen, habe ich gelernt remote zu arbeiten, angefangen mir ein Business aufzubauen parallel zu meinem Vollzeitjob und über 8.000 € in Weiterbildungen investiert. \n\nHeute habe ich mein Hobby zum beruf gemacht und helfe Selbstständigen eine starke",
+    "p2_highlight": "Personal Brand",
+    "p2_post": "über Social Media aufzubauen, sich zu trauen sichtbar zu sein und mithilfe von strategischen Content zusätzliche Kundenanfragen zu generieren.",
+    "cta_label": "Jetzt deinen Call buchen"
   },
   "testimonials": {
     "eyebrow": "Feedback",
@@ -57,7 +57,7 @@
         "quote": "„Die Zusammenarbeit mit Lorena war äußerst positiv. Sie hat ein bemerkenswertes Gespür für Ästhetik und Details. Die Kommunikation war angenehm und professionell. Das Ergebnis hat meine Erwartungen sogar noch übertroffen.\""
       },
       {
-        "quote": "„Die alte Seite war veraltet – die neue repräsentiert mein Unternehmen endlich professionell. Klare Empfehlung!\""
+        "quote": "„Lorena hat meine (...) Vorstellungen sofort verstanden und in ein klares, ästhetisches und benutzerfreundliches Website-Layout übersetzt. \nDie Umsetzung in WordPress verlief reibungslos, und die Kommunikation war stets effizient und auf den Punkt. Ich bin extrem zufrieden mit dem Ergebnis (...). Klare Empfehlung!\""
       }
     ]
   },
@@ -77,45 +77,45 @@
     "trust_text": "Remote Social Media Managerin & Grafikdesignerin aus Dresden"
   },
   "footer": {
-    "tagline": "Social Media Management und Content Creation für Selbstständige und Personal Brands."
+    "tagline": "Social Media Management und Content Creation für Personal Brands und Business Coaches."
   },
   "angebot": {
     "eyebrow": "Angebot",
     "headline": "Zwei Pakete. Strategie, Content und Design aus einer Hand.",
-    "intro": "Kein Baukasten aus Einzelbausteinen – jedes Paket ist ein vollständiges Rundum-Paket für deinen Kanal.",
+    "intro": "Ich gebe dir alles an die Hand, was dir hilft eine starke Online-Präsenz aufzubauen",
     "essential": {
       "title": "Essential",
       "subtitle": "Ein Kanal, fokussiert aufgebaut",
       "features": [
         "1 Plattform – Instagram",
         "8 Beiträge pro Monat, Mix aus Reels & Carousels",
-        "Monatlicher Content-Plan nach deinen Content-Säulen",
-        "Stories-Vorlagen & Themenvorschläge",
+        "Monatlicher Content-Plan nach definierten Content-Säulen",
+        "Story-Vorlagen & Themenvorschläge",
         "Monatliches Reporting: Reichweite, Wachstum, Top-Post",
-        "1 Abstimmungscall pro Monat"
+        "Ein Feedbackcall pro Monat"
       ],
       "note": "Mindestlaufzeit 3 Monate"
     },
     "fullservice": {
       "title": "Full Service",
-      "subtitle": "Social Media komplett abgegeben",
+      "subtitle": "Garantiertes Wachstum",
       "features": [
         "Bis zu 2 Plattformen – Instagram plus Facebook per Crossposting",
-        "16 Beiträge pro Monat inkl. A/B-Hook-Varianten",
+        "16 Beiträge pro Monat inkl. A/B-Hook-Testing",
         "Laufender Content-Kalender, quartalsweises Strategie-Reaudit",
         "2 Story-Sets pro Woche",
         "Community Management an Werktagen",
         "Ausführliches Reporting inkl. Learnings & nächsten Schritten",
-        "2 Abstimmungscalls pro Monat"
+        "Zwei Feedbackcalls pro Monat"
       ],
       "note": "Mindestlaufzeit 3 Monate"
     },
     "extras": {
       "headline": "Zusätzlich buchbar",
-      "intro": "Nicht im Retainer enthalten, wird bei Bedarf separat besprochen – ohne dass es die Pakete oben aufbläht.",
+      "intro": "Nicht im Retainer enthalten ist...",
       "items": [
         "Grafikdesign & Branding",
-        "Website & Landingpage",
+        "Konzept und Erstellung einer Landingpage",
         "Content-Shooting vor Ort",
         "LinkedIn Management",
         "Paid Ads",
