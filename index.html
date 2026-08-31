@@ -837,7 +837,7 @@ if (form) {
           form.style.display = '';
           form.reset();
           if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = 'Nachricht senden →'; }
-        }, 3000);
+        }, 5000);
       } else {
         if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = 'Nachricht senden →'; }
         alert('Die Nachricht konnte nicht gesendet werden (Fehler ' + res.status + '). Bitte versuch es erneut oder schreib mir direkt per E-Mail.');
