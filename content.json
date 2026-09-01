@@ -1,31 +1,37 @@
 {
-  "hero": {
-    "eyebrow": "Social Media Management für Selbstständige & Business Coaches",
-    "headline": "Schluss mit Content auf gut Glück.",
-    "subtext": "Von der glasklaren Strategie bis zum fertigen Post: Ich übernehme dein Social Media, damit dein Markenauftritt kontinuierlich die passenden Kunden anzieht.",
-    "cta_label": "Kostenloses Erstgespräch buchen",
-    "trust_text": "Remote Social Media Managerin & Grafikdesignerin aus Dresden"
+  "kontakt": {
+    "eyebrow": "Lass uns quatschen!",
+    "headline": "Machen wir deine Sichtbarkeit zu deiner Kundenquelle.",
+    "subtext": "30 Minuten · Video-Call · Unverbindlich",
+    "calendar_intro": "Wähl dir einen freien Termin aus, du bekommst im Anschluss eine Bestätigung per Mail. Ich freu mich auf dich!",
+    "footnote": "Social Media Managerin aus Dresden – ich betreue Kund*innen remote im ganzen DACH-Raum."
   },
-  "premium": {
-    "eyebrow": "Gehts dir auch so?",
-    "headline_pre": "Dir fehlen ",
-    "headline_highlight": "Zeit und die richtigen Ideen,",
-    "headline_post": " damit dein Account endlich spürbar wächst?",
-    "body1": "Du steckst Energie in deinen Content, erreichst aber nicht die passenden Kunden, der Algorithmus bleibt dir ein Rätsel und trotz bester Vorsätze fällt es dir sehr schwer am Ball zu bleiben und konsistent zu posten.",
-    "body2": "Keine Sorge: Das muss nicht so bleiben."
-  },
-  "stats": {
-    "eyebrow": "Was strategischer Content bewirkt",
-    "linkedin": {
-      "label": "LinkedIn",
-      "value": "+177 %",
-      "text": "Wachstum in nur 2 Monaten aktivem Posten."
-    },
-    "instagram": {
-      "label": "Instagram",
-      "value": "13.155",
-      "text": "Aufrufe erzielt in nur 2 Wochen trotz einem vorher \"toten\" Account."
-    }
+  "ablauf": {
+    "eyebrow": "Der Ablauf",
+    "headline": "So läuft unsere Zusammenarbeit ab",
+    "subtext": "Kein Chaos, kein Rätselraten – du weißt jederzeit, wo wir stehen.",
+    "steps": [
+      {
+        "title": "Kennenlerncall",
+        "text": "Wir lernen uns kennen und klären, ob es passt."
+      },
+      {
+        "title": "Angebot & Onboarding",
+        "text": "Dein individuelles Paket, plus Deep Dive in dein Business und deine Marke."
+      },
+      {
+        "title": "Strategie",
+        "text": "Deine persönliche Kanal-Strategie, gemeinsam abgestimmt."
+      },
+      {
+        "title": "Umsetzung",
+        "text": "Content wird erstellt und geht nach deiner Freigabe online."
+      },
+      {
+        "title": "Analyse & Anpassung",
+        "text": "Monatlicher Check-in – Strategie wird auf Basis der Zahlen laufend geschärft."
+      }
+    ]
   },
   "about": {
     "eyebrow": "Über mich",
@@ -36,6 +42,42 @@
     "p2_highlight": "Personal Brand",
     "p2_post": " aufzubauen, selbstbewusst sichtbar zu werden und durch strategischen Content planbar Kundenanfragen zu generieren.",
     "cta_label": "Jetzt deinen Call buchen"
+  },
+  "testimonials": {
+    "eyebrow": "Feedback",
+    "headline": "Das sagen meine Kund:innen",
+    "items": [
+      {
+        "quote": "„Die Kommunikation war die ganze Zeit hinweg sehr freundlich und offen. Lorena hat durch gezielte Fragen meine vagen Vorstellungen in tolle Entwürfe umsetzen können. Ich kann Lorena wärmstens weiterempfehlen!\""
+      },
+      {
+        "quote": "„Lorena geht feinfühlig auf die Wünsche ihrer Kund*innen ein. Ich schätze die Zusammenarbeit mit ihr sehr, da sie neben meinen Vorstellungen auch eigeninitiativ Verbesserungsvorschläge und neue Ideen einbringt.\""
+      },
+      {
+        "quote": "„Die Zusammenarbeit mit Lorena war äußerst positiv. Sie hat ein bemerkenswertes Gespür für Ästhetik und Details. Die Kommunikation war angenehm und professionell. Das Ergebnis hat meine Erwartungen sogar noch übertroffen.\""
+      },
+      {
+        "quote": "„Lorena hat meine (…) Vorstellungen sofort verstanden und in ein klares, ästhetisches und benutzerfreundliches Website-Layout übersetzt. Die Umsetzung in WordPress verlief reibungslos, und die Kommunikation war stets effizient und auf den Punkt. Ich bin extrem zufrieden mit dem Ergebnis (…). Klare Empfehlung!\""
+      }
+    ]
+  },
+  "premium": {
+    "eyebrow": "Gehts dir auch so?",
+    "headline_pre": "Dir fehlen ",
+    "headline_highlight": "Zeit und die richtigen Ideen,",
+    "headline_post": " damit dein Account endlich spürbar wächst?",
+    "body1": "Du steckst Energie in deinen Content, erreichst aber nicht die passenden Kunden, der Algorithmus bleibt dir ein Rätsel und trotz bester Vorsätze fällt es dir sehr schwer am Ball zu bleiben und konsistent zu posten.",
+    "body2": "Keine Sorge: Das muss nicht so bleiben."
+  },
+  "hero": {
+    "eyebrow": "Social Media Management für Selbstständige & Business Coaches",
+    "headline": "Schluss mit Content auf gut Glück.",
+    "subtext": "Von der glasklaren Strategie bis zum fertigen Post: Ich übernehme dein Social Media, damit dein Markenauftritt kontinuierlich die passenden Kunden anzieht.",
+    "cta_label": "Kostenloses Erstgespräch buchen",
+    "trust_text": "Remote Social Media Managerin & Grafikdesignerin aus Dresden"
+  },
+  "footer": {
+    "tagline": "Social Media Management und Content Creation für Personal Brands und Business Coaches."
   },
   "angebot": {
     "eyebrow": "Angebot",
@@ -69,8 +111,8 @@
       "note": "Mindestlaufzeit 3 Monate"
     },
     "extras": {
-      "headline": "Nicht im Paket enthalten",
-      "intro": "aber zusätzlich buchbar sind…",
+      "headline": "Zusätzlich buchbar",
+      "intro": "also nicht im Paket enthalten sind...",
       "items": [
         "Grafikdesign & Branding",
         "Konzept und Erstellung einer Landingpage",
@@ -81,36 +123,17 @@
       ]
     }
   },
-  "ablauf": {
-    "eyebrow": "Der Ablauf",
-    "headline": "So läuft unsere Zusammenarbeit ab",
-    "subtext": "Kein Chaos, kein Rätselraten – du weißt jederzeit, wo wir stehen.",
-    "steps": [
-      { "title": "Kennenlerncall", "text": "Wir lernen uns kennen und klären, ob es passt." },
-      { "title": "Angebot & Onboarding", "text": "Dein individuelles Paket, plus Deep Dive in dein Business und deine Marke." },
-      { "title": "Strategie", "text": "Deine persönliche Kanal-Strategie, gemeinsam abgestimmt." },
-      { "title": "Umsetzung", "text": "Content wird erstellt und geht nach deiner Freigabe online." },
-      { "title": "Analyse & Anpassung", "text": "Monatlicher Check-in – Strategie wird auf Basis der Zahlen laufend geschärft." }
-    ]
-  },
-  "testimonials": {
-    "eyebrow": "Feedback",
-    "headline": "Das sagen meine Kund:innen",
-    "items": [
-      { "quote": "„Die Kommunikation war die ganze Zeit hinweg sehr freundlich und offen. Lorena hat durch gezielte Fragen meine vagen Vorstellungen in tolle Entwürfe umsetzen können. Ich kann Lorena wärmstens weiterempfehlen!\"" },
-      { "quote": "„Lorena geht feinfühlig auf die Wünsche ihrer Kund*innen ein. Ich schätze die Zusammenarbeit mit ihr sehr, da sie neben meinen Vorstellungen auch eigeninitiativ Verbesserungsvorschläge und neue Ideen einbringt.\"" },
-      { "quote": "„Die Zusammenarbeit mit Lorena war äußerst positiv. Sie hat ein bemerkenswertes Gespür für Ästhetik und Details. Die Kommunikation war angenehm und professionell. Das Ergebnis hat meine Erwartungen sogar noch übertroffen.\"" },
-      { "quote": "„Lorena hat meine (…) Vorstellungen sofort verstanden und in ein klares, ästhetisches und benutzerfreundliches Website-Layout übersetzt. Die Umsetzung in WordPress verlief reibungslos, und die Kommunikation war stets effizient und auf den Punkt. Ich bin extrem zufrieden mit dem Ergebnis (…). Klare Empfehlung!\"" }
-    ]
-  },
-  "kontakt": {
-    "eyebrow": "Lass uns quatschen!",
-    "headline": "Machen wir deine Sichtbarkeit zu deiner Kundenquelle.",
-    "subtext": "30 Minuten · Video-Call · Unverbindlich",
-    "calendar_intro": "Wähl dir einen freien Termin aus, du bekommst im Anschluss eine Bestätigung per Mail. Ich freu mich auf dich!",
-    "footnote": "Social Media Managerin aus Dresden – ich betreue Kund*innen remote im ganzen DACH-Raum."
-  },
-  "footer": {
-    "tagline": "Social Media Management und Content Creation für Personal Brands und Business Coaches."
+  "stats": {
+    "eyebrow": "Was strategischer Content bewirkt",
+    "linkedin": {
+      "label": "LinkedIn",
+      "value": "+177 %",
+      "text": "Wachstum in nur 2 Monaten aktivem Posten."
+    },
+    "instagram": {
+      "label": "Instagram",
+      "value": "13.155",
+      "text": "Aufrufe erzielt in nur 2 Wochen trotz einem vorher \"toten\" Account."
+    }
   }
 }
