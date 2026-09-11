@@ -23,8 +23,8 @@
     },
     "instagram": {
       "label": "Instagram",
-      "value": "13.155",
-      "text": "Aufrufe erzielt in nur 2 Wochen trotz einem vorher \"toten\" Account."
+      "value": "31.128",
+      "text": "Aufrufe und +23 Follower erzielt in nur 3 Wochen trotz einem vorher \"toten\" Account."
     }
   },
   "about": {
@@ -39,18 +39,28 @@
   },
   "angebot": {
     "eyebrow": "Angebot",
-    "headline": "Zwei Pakete. Strategie, Content und Design aus einer Hand.",
+    "headline": "Drei Pakete. Strategie, Content und Design aus einer Hand.",
     "intro": "Ich kümmere mich darum, dir eine starke Community und Online-Präsenz aufzubauen.",
+    "starter": {
+      "title": "Starter",
+      "subtitle": "Sparring & Struktur",
+      "features": [
+        "1 Plattform, Instagram",
+        "8 Beiträge ohne Caption",
+        "Content-Plan: Rhythmus, Format & Posting-Tage",
+        "1 Sparring-Call mit kurzer Analyse, Klärung offener Fragen"
+      ],
+      "note": "Mindestlaufzeit 3 Monate"
+    },
     "essential": {
       "title": "Essential",
-      "subtitle": "Ein Kanal, fokussiert aufgebaut",
+      "subtitle": "Fokussiert aufgebaut",
       "features": [
-        "1 Plattform – Instagram",
-        "8 Beiträge pro Monat, Mix aus Reels & Carousels",
-        "Monatlicher Content-Plan nach definierten Content-Säulen",
-        "Stories-Vorlagen & Themenvorschläge",
-        "Monatliches Reporting: Reichweite, Wachstum, Top-Post",
-        "Ein Feedbackcall pro Monat"
+        "12 Beiträge inkl. Caption nach Voice-Style-Guide & Themenvorschläge",
+        "Vollständiger Content-Plan inkl. Content-Säulen",
+        "Story Beratung (Frequenz & Aufbau)",
+        "Kompakte Performance Analyse",
+        "2 Feedbackcalls pro Monat"
       ],
       "note": "Mindestlaufzeit 3 Monate"
     },
@@ -58,22 +68,21 @@
       "title": "Full Service",
       "subtitle": "Garantiertes Wachstum",
       "features": [
-        "Bis zu 2 Plattformen – Instagram plus Facebook per Crossposting",
-        "16 Beiträge pro Monat inkl. A/B-Hook-Testing",
-        "Laufender Content-Kalender, quartalsweises Strategie-Reaudit",
+        "2 Plattformen (Crossposting Insta & FB)",
+        "16 Beiträge inkl. je 2 Hook-Varianten für Reels",
+        "Quartalsweises Strategie-Reaudit",
         "2 Story-Sets pro Woche",
         "Community Management an Werktagen",
-        "Ausführliches Reporting inkl. Learnings & nächsten Schritten",
+        "Ausführliche Performance-Analyse",
         "Zwei Feedbackcalls pro Monat"
       ],
       "note": "Mindestlaufzeit 3 Monate"
     },
     "extras": {
-      "headline": "Nicht im Paket enthalten",
-      "intro": "aber zusätzlich buchbar sind…",
+      "headline": "Zusätzlich buchbar",
       "items": [
         "Grafikdesign & Branding",
-        "Konzept und Erstellung einer Landingpage",
+        "Konzept & Erstellung einer Landingpage",
         "Content-Shooting vor Ort",
         "LinkedIn Management",
         "Paid Ads",
