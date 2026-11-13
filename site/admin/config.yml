@@ -1,0 +1,123 @@
+backend:
+  name: github
+  repo: socialsbylorena/socialsbylorena-website
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+media_folder: "images"
+public_folder: "/images"
+locale: "de"
+
+# Gemeinsame Felder (DE und EN nutzen dieselbe Struktur)
+x-fields: &fields
+  - { label: "Meta", name: "meta", widget: "object", fields: [ { label: "Seitentitel", name: "title", widget: "string" }, { label: "Beschreibung", name: "description", widget: "text" } ] }
+  - { label: "Navigation", name: "nav", widget: "object", fields: [ { label: "Über uns", name: "about", widget: "string" }, { label: "Leistungen", name: "leistungen", widget: "string" }, { label: "Ablauf", name: "ablauf", widget: "string" }, { label: "Stimmen", name: "stimmen", widget: "string" }, { label: "Kontakt", name: "kontakt", widget: "string" }, { label: "Button", name: "cta", widget: "string" }, { label: "Menü", name: "menu", widget: "string" } ] }
+  - label: "Hero"
+    name: "hero"
+    widget: "object"
+    fields:
+      - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+      - { label: "Überschrift", name: "title", widget: "text" }
+      - { label: "Untertext", name: "sub", widget: "text" }
+      - { label: "Button", name: "cta", widget: "string" }
+      - { label: "Zweiter Button (E-Mail)", name: "cta2", widget: "string" }
+      - { label: "Vertrauenszeile", name: "trust", widget: "string" }
+  - label: "Problem"
+    name: "problem"
+    widget: "object"
+    fields:
+      - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+      - { label: "Überschrift", name: "title", widget: "text" }
+      - { label: "Text", name: "text", widget: "text" }
+  - label: "Über uns"
+    name: "about"
+    widget: "object"
+    fields:
+      - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+      - { label: "Überschrift", name: "title", widget: "string" }
+      - { label: "Intro-Text", name: "intro", widget: "text" }
+      - { label: "Personen (Foto: images/about-lorena.jpg bzw. about-christian.jpg)", name: "people", widget: "list", fields: [ { label: "Name", name: "name", widget: "string" }, { label: "Rolle", name: "role", widget: "string" }, { label: "Text", name: "text", widget: "text" } ] }
+      - { label: "Abschlusstext", name: "outro", widget: "text" }
+  - label: "Leistungen"
+    name: "leistungen"
+    widget: "object"
+    fields:
+      - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+      - { label: "Überschrift", name: "title", widget: "string" }
+      - { label: "Einleitung", name: "intro", widget: "text" }
+      - label: "Tabs (4)"
+        name: "tabs"
+        widget: "list"
+        fields:
+          - { label: "Reiter-Name", name: "label", widget: "string" }
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Text", name: "text", widget: "text" }
+          -       - { label: "Titel Extras", name: "extrasTitle", widget: "string" }
+      - { label: "Hinweis unter den Extras", name: "extrasHint", widget: "string" }
+      - { label: "Extras (klickbar)", name: "extras", widget: "list", fields: [ { label: "Name", name: "label", widget: "string" }, { label: "Erklärung", name: "text", widget: "text" } ] }
+  - label: "Ablauf (7 Schritte)"
+    name: "ablauf"
+    widget: "object"
+    fields:
+      - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+      - { label: "Überschrift", name: "title", widget: "string" }
+      - { label: "Einleitung", name: "intro", widget: "string" }
+      - { label: "Schritte (genau 7, wegen der Icons)", name: "steps", widget: "list", min: 7, max: 7, fields: [ { label: "Titel", name: "title", widget: "string" }, { label: "Text", name: "text", widget: "text" } ] }
+  - label: "Fit-Filter"
+    name: "fit"
+    widget: "object"
+    fields:
+      - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+      - { label: "Überschrift", name: "title", widget: "string" }
+      - { label: "Titel links", name: "yesTitle", widget: "string" }
+      - { label: "Punkte links", name: "yes", widget: "list", field: { label: "Punkt", name: "p", widget: "string" } }
+      - { label: "Titel rechts", name: "noTitle", widget: "string" }
+      - { label: "Punkte rechts", name: "no", widget: "list", field: { label: "Punkt", name: "p", widget: "string" } }
+  - label: "Stimmen (3 Zitate)"
+    name: "stimmen"
+    widget: "object"
+    fields:
+      - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+      - { label: "Überschrift", name: "title", widget: "string" }
+      - { label: "Zitate", name: "items", widget: "list", min: 3, max: 3, fields: [ { label: "Zitat", name: "quote", widget: "text" }, { label: "Name", name: "name", widget: "string" }, { label: "Rolle / Betrieb", name: "role", widget: "string" } ] }
+  - label: "Kontakt"
+    name: "kontakt"
+    widget: "object"
+    fields:
+      - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+      - { label: "Überschrift", name: "title", widget: "string" }
+      - { label: "Unterzeile", name: "sub", widget: "string" }
+      - { label: "Kalender-Intro", name: "calendarIntro", widget: "text" }
+      - { label: "Kalender-Titel", name: "calendarTitle", widget: "string" }
+      - { label: "Kalender-Einwilligungstext", name: "calendarConsent", widget: "text" }
+      - { label: "Kalender-Button", name: "calendarLoad", widget: "string" }
+      - { label: "Kalender-Alternativlink", name: "calendarOpen", widget: "string" }
+      - { label: "Schreiben-Titel", name: "writeFirst", widget: "string" }
+      - label: "Formular"
+        name: "form"
+        widget: "object"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Name Platzhalter", name: "namePh", widget: "string" }
+          - { label: "E-Mail", name: "email", widget: "string" }
+          - { label: "E-Mail Platzhalter", name: "emailPh", widget: "string" }
+          - { label: "Nachricht", name: "message", widget: "string" }
+          - { label: "Nachricht Platzhalter", name: "messagePh", widget: "string" }
+          - { label: "Einwilligung", name: "consent", widget: "string" }
+          - { label: "Datenschutz-Link", name: "privacy", widget: "string" }
+          - { label: "Senden", name: "submit", widget: "string" }
+          - { label: "Danke Titel", name: "thanksTitle", widget: "string" }
+          - { label: "Danke Text", name: "thanksText", widget: "string" }
+          - { label: "Fehlertext", name: "error", widget: "string" }
+      - { label: "Fußnote", name: "footnote", widget: "string" }
+  - { label: "Footer", name: "footer", widget: "object", fields: [ { label: "Tagline", name: "tagline", widget: "text" }, { label: "Impressum", name: "imprint", widget: "string" }, { label: "Datenschutz", name: "privacy", widget: "string" }, { label: "Rechtstexte-Hinweis", name: "legalNote", widget: "string", required: false }, { label: "Rechte", name: "rights", widget: "string" }, { label: "Nach oben", name: "top", widget: "string" }, { label: "Titel Seiten", name: "navTitle", widget: "string" }, { label: "Titel Kontakt", name: "contactTitle", widget: "string" } ] }
+  - { label: "Cookie-Banner", name: "consent", widget: "object", fields: [ { label: "Text", name: "text", widget: "text" }, { label: "Button Erlauben", name: "accept", widget: "string" }, { label: "Button Ablehnen", name: "decline", widget: "string" }, { label: "Footer-Link", name: "settings", widget: "string" } ] }
+  - { label: "Barrierefreiheit", name: "a11y", widget: "object", fields: [ { label: "Deutsch", name: "langDe", widget: "string" }, { label: "English", name: "langEn", widget: "string" }, { label: "Schließen", name: "close", widget: "string" }, { label: "Tabs", name: "tabs", widget: "string" }, { label: "Schritte", name: "steps", widget: "string" }, { label: "Sterne", name: "rating", widget: "string" } ] }
+
+collections:
+  - name: "seite"
+    label: "Website-Inhalte"
+    files:
+      - { name: "de", label: "Deutsch", file: "content.de.json", fields: *fields }
+      - { name: "en", label: "English", file: "content.en.json", fields: *fields }

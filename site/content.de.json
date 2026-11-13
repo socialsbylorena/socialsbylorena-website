@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "title": "Socials by Lorena | Social Media Management für Reiseveranstalter, Hotels & Travel Brands",
+    "description": "Content- und Kundenakquise-System auf Social Media für Reiseveranstalter, Hotels und Travel Brands. Strategie, Content, Community Management und Reporting aus einer Hand."
+  },
+  "nav": {
+    "about": "Über uns",
+    "leistungen": "Leistungen",
+    "ablauf": "Ablauf",
+    "stimmen": "Stimmen",
+    "kontakt": "Kontakt",
+    "cta": "Erstgespräch buchen",
+    "menu": "Menü"
+  },
+  "hero": {
+    "eyebrow": "Social Media für Reiseveranstalter, Hotels & Travel Brands",
+    "title": "Damit Ihre Kunden Sie bereits lieben, bevor sie bei Ihnen buchen.",
+    "sub": "Wir verwandeln Ihre Social Media Kanäle in eine digitale Erlebniswelt. Mit authentischem Content und echtem Community Building stärken wir Ihre Marke und sorgen ganz natürlich für mehr Buchungen.",
+    "cta": "Jetzt Erstgespräch buchen!",
+    "cta2": "E-Mail schreiben",
+    "trust": "Ihr Dreamteam aus Dresden. Remote im gesamten DACH-Raum."
+  },
+  "problem": {
+    "eyebrow": "Erkennen Sie sich wieder?",
+    "title": "Sie verkaufen fantastische Reisen, sind aber zu abhängig von Mundpropaganda?",
+    "text": "Social Media kostet Sie Zeit und Nerven, ohne dass Ihre Marke wirklich strahlt? Währenddessen begeistert die Konkurrenz online Ihre Zielgruppe und sichert sich die Buchungen. Lassen Sie uns das ändern!"
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "title": "Hi, wir sind Christian & Lorena",
+    "people": [
+      {
+        "name": "Lorena",
+        "role": "Strategie, Content & Design",
+        "text": "Lorena (Grafikdesign & Social Media) leitet Ihre Kanäle und sorgt für Premium-Content."
+      },
+      {
+        "name": "Christian",
+        "role": "Vertrieb & Prozesse",
+        "text": "Christian (Vertriebs-Ass) hält im Hintergrund die Prozesse am Laufen."
+      }
+    ],
+    "intro": "Seit 2022 bereisen wir als digitale Nomaden die Welt und buchen unsere Aufenthalte genau wie Ihre Kunden: inspiriert durch Social Media. Diesen authentischen Gäste-Blick bringen wir in unsere Zusammenarbeit ein.",
+    "outro": "Ihr Dreamteam für direkte Kommunikation und einen starken digitalen Auftritt, ohne anonyme Agentur-Strukturen."
+  },
+  "leistungen": {
+    "eyebrow": "Unsere Leistungen",
+    "title": "Alles, was Sie brauchen.",
+    "intro": "Wir bieten ein komplettes Done-For-You Social Media Management. Sie liefern das Rohmaterial, wir übernehmen Strategie, Content, Posting und Community. Ihr Profil wird zur täglichen Inspiration für Ihren idealen Kunden.",
+    "tabs": [
+      {
+        "label": "Strategie & Research",
+        "text": "Wir definieren Ihre Positionierung und Zielgruppe. Durch Viral Market Research analysieren wir, was in der Reisebranche begeistert. Ein eigener Voice-Style-Guide garantiert 100 % Authentizität."
+      },
+      {
+        "label": "Content & Design",
+        "text": "High-End Editing für Reels und Stories. Wir schreiben Skripte, die Emotionen wecken statt nach Werbung zu klingen. Mit unserer Guided Filming Session (inkl. Setup & Shot-Liste) drehen Sie Ihren Monats-Content in nur 2–3 Stunden selbst ab."
+      },
+      {
+        "label": "Veröffentlichung & Community",
+        "text": "Wir planen alle Posts vor (Strategic Upload). Plus aktives Community Management: Wir antworten Followern, bauen echte Beziehungen auf und filtern ernsthafte Buchungsanfragen für Sie vor."
+      },
+      {
+        "label": "Analyse & Sparring",
+        "text": "Ihr Content Command Center: Ein zentrales Dashboard für Kalender, Freigaben und Reportings. In monatlichen Strategy-Sessions optimieren wir den Erfolg. Für Feedback zwischendurch gibt es unseren direkten WhatsApp-Support."
+      }
+    ],
+    "extrasTitle": "Zusätzlich buchbar",
+    "extras": [
+      {
+        "label": "Branding & Grafikdesign",
+        "text": "Ihre Marke verfügt noch über kein einheitliches Branding? Kein Problem. Wir erstellen Ihnen ein klares Marken-Kit mit Logo, Farben, Schriften und Feed-Vorlagen, egal ob für Ihre Website oder Printmedien. Alles aus einem Guss und perfekt passend zu Ihrem Unternehmen."
+      },
+      {
+        "label": "Landingpages",
+        "text": "Ihre Website ist veraltet oder braucht ein Glow-Up? Gerne! Wir designen und programmieren Ihre neue Landingpage – mit klarem Aufbau, passenden Texten, modernem Design und integrierter Kontakt- oder Buchungsmöglichkeit."
+      },
+      {
+        "label": "Content-Shootings vor Ort",
+        "text": "Sie trauen sich nicht zu, den Content selbst zu drehen? Im Raum Sachsen kommen wir für einen Content-Tag gerne direkt zu Ihnen ins Unternehmen. Ihr Standort liegt außerhalb unseres Umkreises? Dann schicken wir Videografen und Fotografen aus unserem Netzwerk zu Ihnen. So entsteht an nur einem Tag das Material für die nächsten drei Monate."
+      },
+      {
+        "label": "LinkedIn-Management",
+        "text": "LinkedIn ist für Sie noch eine Grauzone, aber Sie möchten das Potenzial gerne nutzen? Wir bauen Ihr LinkedIn-Profil auf, entwickeln eine fundierte Strategie und Profiloptimierung und verfassen Ihre Beiträge. Ideal für B2B-Kontakte und Geschäftspartner."
+      },
+      {
+        "label": "Paid Ads",
+        "text": "Sie haben Meta Ads bereits probiert, aber bisher mehr Geld verbrannt als eingenommen? Wir boosten Ihre stärksten Beiträge mit zielgerichteter bezahlter Werbung. Mit einer smarten Paid-Ads-Strategie generieren wir qualitative Leads für Ihr Unternehmen."
+      },
+      {
+        "label": "Social-Media-Beratung",
+        "text": "Sie benötigen nur das Fundament oder möchten einen Ihrer Mitarbeiter schulen? Wir bauen gemeinsam Ihre Social-Media-Strategie auf. Unabhängig von unseren Standard-Paketen bieten wir eine dreimonatige Intensivberatung an. Darin entwickeln wir die Strategie und befähigen Sie, selbst zum Social-Media-Experten zu werden. Wir geben Ihnen das komplette Handwerkszeug mit."
+      }
+    ],
+    "extrasHint": "Klick für mehr"
+  },
+  "ablauf": {
+    "eyebrow": "Der Ablauf",
+    "title": "So läuft die Zusammenarbeit ab.",
+    "intro": "",
+    "steps": [
+      {
+        "title": "Kennenlernen",
+        "text": "Unverbindlicher Call & maßgeschneidertes Angebot."
+      },
+      {
+        "title": "Deep-Dive Onboarding",
+        "text": "Fragebogen & Kickoff-Call für Ihre 90-Tage-Content-Strategie."
+      },
+      {
+        "title": "Viral Market Research",
+        "text": "Wir analysieren, welcher Content in Ihrem Markt aktuell inspiriert."
+      },
+      {
+        "title": "Skripte & Guided Filming",
+        "text": "Wir liefern Skripte und Drehanweisungen, Sie liefern Content."
+      },
+      {
+        "title": "High-End Editing",
+        "text": "Wir schneiden und designen. Sie geben per 1-Klick im Content-Kalender frei."
+      },
+      {
+        "title": "Strategic Upload",
+        "text": "Wir posten Ihren Content zur besten Zeit."
+      },
+      {
+        "title": "Community & Analyse",
+        "text": "Wir pflegen den Austausch mit Ihren Gästen und optimieren stetig die Strategie."
+      }
+    ]
+  },
+  "fit": {
+    "eyebrow": "Passt das?",
+    "title": "Sind wir ein Match?",
+    "yesTitle": "Guter Fit, wenn …",
+    "noTitle": "Kein Fit, wenn …",
+    "yes": [
+      "Sie bereit sind, sich vor der Kamera zu zeigen.",
+      "Sie monatlich ca. 2-3 Stunden für den Dreh investieren.",
+      "Sie Ihre Marke langfristig aufbauen wollen (Marathon, kein Sprint)."
+    ],
+    "no": [
+      "Niemand aus Ihrem Team vor die Kamera möchte.",
+      "Sie Ergebnisse über Nacht erwarten.",
+      "Sie Social Media nur als reine Verkaufsplattform sehen."
+    ]
+  },
+  "stimmen": {
+    "eyebrow": "Feedback",
+    "title": "Was unsere Kund:innen sagen.",
+    "items": [
+      {
+        "quote": "Die Zusammenarbeit mit Lorena war äußerst positiv. Sie hat ein bemerkenswertes Gespür für Ästhetik und Details. Die Kommunikation war angenehm und professionell. Das Ergebnis hat meine Erwartungen sogar noch übertroffen.",
+        "name": "Dana Scheider",
+        "role": "Dein-Buchladen.de"
+      },
+      {
+        "quote": "Lorena hat meine (…) Vorstellungen sofort verstanden und in ein klares, ästhetisches und benutzerfreundliches Website-Layout übersetzt. Die Umsetzung in WordPress verlief reibungslos, und die Kommunikation war stets effizient und auf den Punkt. Ich bin extrem zufrieden mit dem Ergebnis (…). Klare Empfehlung!",
+        "name": "Karsten Bindszus",
+        "role": "Bindszus John & Partner"
+      },
+      {
+        "quote": "(...) da steckt wirklich so viel Arbeit drin und vor allem merkt man, dass ihr das mit vollem Herzen macht. Vielen, vielen Dank dafür! 🥰 Wir haben jetzt einen richtig guten Leitfaden. (...) Wir freuen uns total, dass wir die Zusammenarbeit mit euch gestartet haben!!",
+        "name": "Nicole Forke",
+        "role": "AARA Hotel"
+      }
+    ]
+  },
+  "kontakt": {
+    "eyebrow": "Lassen Sie uns sprechen!",
+    "title": "Werden Sie zur ersten Wahl in Ihrer Region und im gesamten DACH-Raum.",
+    "sub": "30 Minuten · Video-Call · 100 % unverbindlich · mit Christian",
+    "calendarIntro": "Wählen Sie sich einen freien Termin aus. Sie erhalten im Anschluss eine Bestätigung per E-Mail. Wir freuen uns auf Sie!",
+    "calendarTitle": "Termin bei Socials by Lorena buchen",
+    "writeFirst": "Lieber erstmal schreiben?",
+    "form": {
+      "name": "Name *",
+      "namePh": "Ihr Name",
+      "email": "E-Mail *",
+      "emailPh": "ihre@email.de",
+      "message": "Nachricht *",
+      "messagePh": "Erzählen Sie uns kurz von Ihrem Unternehmen sowie Ihren aktuellen Herausforderungen...",
+      "consent": "Ich stimme der Verarbeitung meiner Daten zu.",
+      "privacy": "Datenschutzerklärung",
+      "submit": "Nachricht senden →",
+      "thanksTitle": "Vielen Dank!",
+      "thanksText": "Wir melden uns innerhalb von 24 Stunden persönlich bei Ihnen.",
+      "error": "Das hat leider nicht geklappt. Bitte schreiben Sie uns direkt an lb@socialsbylorena.com."
+    },
+    "footnote": "Zweier-Team aus Dresden. Wir betreuen Unternehmen in der Tourismusbranche. Sie kommen aus einer anderen Branche? Sprechen Sie uns trotzdem gerne an!",
+    "calendarConsent": "Für die Terminbuchung binden wir den Kalender von Google ein. Beim Laden werden Daten, z. B. Ihre IP-Adresse, an Google übertragen. Mit einem Klick stimmen Sie dem zu.",
+    "calendarLoad": "Kalender laden",
+    "calendarOpen": "Oder direkt bei Google öffnen"
+  },
+  "footer": {
+    "tagline": "Full-Service Social-Media-Management für Hotellerie, Reiseunternehmen und Travel Brands.",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "legalNote": "",
+    "rights": "Alle Rechte vorbehalten.",
+    "top": "Nach oben scrollen",
+    "navTitle": "Seiten",
+    "contactTitle": "Kontakt"
+  },
+  "a11y": {
+    "langDe": "Deutsch",
+    "langEn": "English",
+    "close": "Schließen",
+    "tabs": "Leistungsbereiche",
+    "steps": "Ablauf der Zusammenarbeit",
+    "rating": "5 von 5 Sternen"
+  },
+  "consent": {
+    "text": "Diese Website nutzt keine Tracking-Cookies. Für die Terminbuchung möchten wir den Google-Kalender anzeigen. Dabei werden Daten, z. B. Ihre IP-Adresse, an Google übertragen. Ihre Wahl wird in Ihrem Browser gespeichert.",
+    "accept": "Kalender erlauben",
+    "decline": "Ablehnen",
+    "settings": "Cookie-Einstellungen"
+  }
+}

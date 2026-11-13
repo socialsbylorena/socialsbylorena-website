@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "title": "Socials by Lorena | Social Media Management for Tour Operators, Hotels & Travel Brands",
+    "description": "A content and client-acquisition system on social media for tour operators, hotels and travel brands. Strategy, content, community management and reporting from one source."
+  },
+  "nav": {
+    "about": "About Us",
+    "leistungen": "Services",
+    "ablauf": "Process",
+    "stimmen": "Testimonials",
+    "kontakt": "Contact",
+    "cta": "Book a Discovery Call",
+    "menu": "Menu"
+  },
+  "hero": {
+    "eyebrow": "Social Media for Tour Operators, Hotels & Travel Brands",
+    "title": "Make sure your guests love you before they book.",
+    "sub": "We turn your channels into a digital experience. Through authentic content and active community building, we strengthen your brand and naturally drive more bookings.",
+    "cta": "Book Discovery Call",
+    "cta2": "Send us an Email",
+    "trust": "Dream team from Dresden, Germany. Working remotely across Europe."
+  },
+  "problem": {
+    "eyebrow": "Sound familiar?",
+    "title": "Offering fantastic travel experiences, but too dependent on word-of-mouth?",
+    "text": "Does social media cost you time and nerves without your brand truly shining? Meanwhile, competitors are inspiring your target audience online and securing bookings. Let's change that!"
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "Hi, we are Christian & Lorena",
+    "people": [
+      {
+        "name": "Lorena",
+        "role": "Strategy, content & design",
+        "text": "Lorena (Graphic Design & Social Media) manages your channels and ensures premium content."
+      },
+      {
+        "name": "Christian",
+        "role": "Sales & processes",
+        "text": "Christian (Sales) keeps the processes running smoothly behind the scenes."
+      }
+    ],
+    "intro": "Traveling the world as digital nomads since 2022, we book our stays exactly like your customers do: inspired by social media. We bring this authentic guest perspective into our work.",
+    "outro": "Your dream team for direct communication and a strong digital presence – no anonymous agency structures."
+  },
+  "leistungen": {
+    "eyebrow": "Our Services",
+    "title": "Everything you need.",
+    "intro": "We offer a complete Done-For-You social media management. You provide the raw footage, we handle the strategy, content, posting, and community. We turn your profile into a daily inspiration for your dream guests.",
+    "tabs": [
+      {
+        "label": "Strategy & Research",
+        "text": "We define your positioning and target audience. Through Viral Market Research, we analyze what captivates the travel industry. A dedicated voice-style guide ensures 100% authenticity."
+      },
+      {
+        "label": "Content & Design",
+        "text": "High-End Editing for Reels and Stories. We write scripts that evoke emotions rather than sounding like ads. With our Guided Filming Session (incl. setup & shot list), you can batch-film your monthly content in just 2–3 hours."
+      },
+      {
+        "label": "Publishing & Community",
+        "text": "We schedule all posts in advance (Strategic Upload). Plus active Community Management: We reply to followers, build genuine relationships, and pre-qualify serious booking inquiries."
+      },
+      {
+        "label": "Analysis & Sparring",
+        "text": "Your Content Command Center: A central dashboard for calendars, approvals, and performance reports. We optimize success in monthly strategy sessions. Direct WhatsApp support included."
+      }
+    ],
+    "extrasTitle": "Available in addition",
+    "extras": [
+      {
+        "label": "Branding & graphic design",
+        "text": "Your brand doesn't have consistent branding yet? No problem. We create a clear brand kit with logo, colours, fonts and feed templates, for your website or print media alike. Everything cohesive and a perfect fit for your company."
+      },
+      {
+        "label": "Landing pages",
+        "text": "Is your website outdated or in need of a glow-up? Gladly! We design and build your new landing page – with a clear structure, fitting copy, modern design and an integrated contact or booking option."
+      },
+      {
+        "label": "On-site content shoots",
+        "text": "Don't feel confident shooting content yourself? In the Saxony region we're happy to come to your company for a content day. Outside our area? Then we send videographers and photographers from our network. In just one day you get the material for the next three months."
+      },
+      {
+        "label": "LinkedIn management",
+        "text": "LinkedIn is still a grey area for you, but you'd like to use its potential? We set up your LinkedIn profile, develop a sound strategy and profile optimisation, and write your posts. Ideal for B2B contacts and business partners."
+      },
+      {
+        "label": "Paid ads",
+        "text": "Have you tried Meta ads but burned more money than you earned? We boost your strongest posts with targeted paid advertising. With a smart paid-ads strategy we generate quality leads for your company."
+      },
+      {
+        "label": "Social media consulting",
+        "text": "You only need the foundation or want to train one of your employees? Together we build your social media strategy. Independent of our standard packages we offer a three-month intensive consulting programme, in which we develop the strategy and enable you to become a social media expert yourself. We give you the complete toolkit."
+      }
+    ],
+    "extrasHint": "Click to learn more"
+  },
+  "ablauf": {
+    "eyebrow": "Our Process",
+    "title": "How we work together.",
+    "intro": "",
+    "steps": [
+      {
+        "title": "Discovery",
+        "text": "Non-binding call & tailored offer."
+      },
+      {
+        "title": "Deep-Dive Onboarding",
+        "text": "Questionnaire & kick-off call for your 90-day strategy."
+      },
+      {
+        "title": "Viral Market Research",
+        "text": "We analyze what kind of content currently inspires your market."
+      },
+      {
+        "title": "Scripts & Guided Filming",
+        "text": "We provide scripts – you film everything in just 2–3 hours/month."
+      },
+      {
+        "title": "High-End Editing",
+        "text": "We edit and design. You approve via a 1-click dashboard."
+      },
+      {
+        "title": "Strategic Upload",
+        "text": "We post your content at the optimal times."
+      },
+      {
+        "title": "Community & Analysis",
+        "text": "We engage with your guests and continuously optimize the strategy."
+      }
+    ]
+  },
+  "fit": {
+    "eyebrow": "Is it a fit?",
+    "title": "Are we a match?",
+    "yesTitle": "A Great Fit If …",
+    "noTitle": "Not a Fit If …",
+    "yes": [
+      "You are willing to show your face on camera.",
+      "You can invest approx. 2-3 hours a month for filming.",
+      "You want to build your brand long-term (it's a marathon, not a sprint)."
+    ],
+    "no": [
+      "No one from your team wants to be on camera.",
+      "You expect overnight viral success.",
+      "You see social media purely as a sales platform."
+    ]
+  },
+  "stimmen": {
+    "eyebrow": "Feedback",
+    "title": "What our clients say.",
+    "items": [
+      {
+        "quote": "Working with Lorena was extremely positive. She has a remarkable feel for aesthetics and detail. Communication was pleasant and professional. The result even exceeded my expectations.",
+        "name": "Dana Scheider",
+        "role": "Dein-Buchladen.de"
+      },
+      {
+        "quote": "Lorena immediately understood my ideas and translated them into a clear, aesthetic, and user-friendly website layout. The implementation in WordPress went smoothly, and the communication was always efficient and to the point. I am extremely satisfied with the result. Clear recommendation!",
+        "name": "Karsten Bindszus",
+        "role": "Bindszus John & Partner"
+      },
+      {
+        "quote": "(...) you can really tell that you put your heart into this. Thank you so much! 🥰 We now have a really good guideline. (...) We are so happy to have started this collaboration!!",
+        "name": "Nicole Forke",
+        "role": "AARA Hotel"
+      }
+    ]
+  },
+  "kontakt": {
+    "eyebrow": "Let's talk!",
+    "title": "Become the top choice in your region and across Europe.",
+    "sub": "30 minutes · Video call · 100 % non-binding · with Christian",
+    "calendarIntro": "Pick a free time slot. You will receive a confirmation via email shortly after. We look forward to meeting you!",
+    "calendarTitle": "Book an appointment with Socials by Lorena",
+    "writeFirst": "Prefer to write first?",
+    "form": {
+      "name": "Name *",
+      "namePh": "Your name",
+      "email": "Email *",
+      "emailPh": "you@email.com",
+      "message": "Message *",
+      "messagePh": "Briefly tell us about your business and your current challenges...",
+      "consent": "I agree to the processing of my data.",
+      "privacy": "Privacy policy",
+      "submit": "Send message →",
+      "thanksTitle": "Thank you!",
+      "thanksText": "We will get back to you personally within 24 hours.",
+      "error": "That didn't work, sorry. Please write to us directly at lb@socialsbylorena.com."
+    },
+    "footnote": "Two-person team from Dresden. We work with companies in the tourism industry. Coming from a different industry? Feel free to get in touch anyway!",
+    "calendarConsent": "To book appointments we embed Google's calendar. When it loads, data such as your IP address is sent to Google. By clicking, you agree to this.",
+    "calendarLoad": "Load calendar",
+    "calendarOpen": "Or open directly on Google"
+  },
+  "footer": {
+    "tagline": "Full-service social media management for hotels, tour operators, and travel brands.",
+    "imprint": "Legal notice",
+    "privacy": "Privacy policy",
+    "legalNote": "The legal notice and privacy policy are provided in German.",
+    "rights": "All rights reserved.",
+    "top": "Scroll to top",
+    "navTitle": "Pages",
+    "contactTitle": "Contact"
+  },
+  "a11y": {
+    "langDe": "Deutsch",
+    "langEn": "English",
+    "close": "Close",
+    "tabs": "Service areas",
+    "steps": "How we work together",
+    "rating": "5 out of 5 stars"
+  },
+  "consent": {
+    "text": "This website uses no tracking cookies. For appointment booking we would like to show the Google calendar. Data such as your IP address is sent to Google. Your choice is stored in your browser.",
+    "accept": "Allow calendar",
+    "decline": "Decline",
+    "settings": "Cookie settings"
+  }
+}
