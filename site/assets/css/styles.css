@@ -1,7 +1,10 @@
 /* ───────── Fonts (lokal, DSGVO). woff2-Dateien in /assets/fonts/ ablegen ───────── */
-@font-face{font-family:'Playfair Display';font-weight:400;font-style:normal;font-display:swap;src:url(/assets/fonts/PlayfairDisplay-Regular.woff2) format('woff2')}
-@font-face{font-family:'Playfair Display';font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fonts/PlayfairDisplay-Italic.woff2) format('woff2')}
-@font-face{font-family:'Figtree';font-weight:300 700;font-style:normal;font-display:swap;src:url(/assets/fonts/Figtree-Variable.woff2) format('woff2')}
+@font-face{font-family:'Playfair Display';font-weight:400 900;font-style:normal;font-display:swap;src:url(/assets/fonts/playfair-display-latin-wght-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Playfair Display';font-weight:400 900;font-style:normal;font-display:swap;src:url(/assets/fonts/playfair-display-latin-ext-wght-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Playfair Display';font-weight:400 900;font-style:italic;font-display:swap;src:url(/assets/fonts/playfair-display-latin-wght-italic.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Playfair Display';font-weight:400 900;font-style:italic;font-display:swap;src:url(/assets/fonts/playfair-display-latin-ext-wght-italic.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Figtree';font-weight:300 900;font-style:normal;font-display:swap;src:url(/assets/fonts/figtree-latin-wght-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Figtree';font-weight:300 900;font-style:normal;font-display:swap;src:url(/assets/fonts/figtree-latin-ext-wght-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
 
 /* ───────── Tokens ───────── */
 :root{
@@ -204,12 +207,6 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;paddin
 .step-card p:last-child,.vstep p:last-child{color:rgba(255,255,255,.78)}
 .step-no{font-family:var(--f-head);font-size:1rem;letter-spacing:.2em;color:var(--taupe)}
 .tl-mobile{display:none}
-@media (min-width:901px){
-  .js .timeline{--tlh:620px;height:calc(var(--tlh) + 40vh*var(--n));}
-  .js .tl-sticky{position:sticky;top:84px;height:var(--tlh);padding-block:0;display:flex;align-items:center}
-  .js .tl-sticky>.wrap{padding-block:clamp(24px,4vh,40px)}
-  .js .timeline .sec-head{margin-bottom:0}
-}
 
 /* ───────── Fit-Filter ───────── */
 .fit-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap-grid);max-width:1060px;margin:var(--gap-block) auto 0}
@@ -440,3 +437,16 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;paddin
 .hero-bg-3{animation-delay:14s}
 @keyframes herofade{0%{opacity:0}5%,33%{opacity:1}38%,100%{opacity:0}}
 @media (prefers-reduced-motion:reduce){.hero-bg-2,.hero-bg-3{animation:none}}
+
+/* Ablauf: automatischer Durchlauf */
+.timeline{height:auto}
+.tl-sticky{padding-block:var(--sec-y)}
+.tl-sticky .step-stage{min-height:170px}
+/* Leistungen-Tabs: eine Zeile */
+.tabs{max-width:1100px}
+.tab{font-size:.74rem;letter-spacing:.1em;padding:16px clamp(10px,1.3vw,20px);white-space:nowrap}
+@media (min-width:901px){.tablist{flex-wrap:nowrap}}
+/* Über uns: größeres Foto */
+.about-grid{grid-template-columns:1.2fr 1fr}
+.about-photo{max-width:640px}
+@media (max-width:900px){.about-grid{grid-template-columns:1fr}.about-photo{max-width:480px}}

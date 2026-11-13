@@ -82,22 +82,20 @@
       cards.forEach(function (c, j) { c.classList.toggle('active', j === i); });
       fill.style.width = (i / (n - 1) * 100) + '%';
     };
-    var tick = function () {
-      if (!mq.matches) return;
-      var st = $('.tl-sticky', tl), total = tl.offsetHeight - st.offsetHeight;
-      var p = Math.min(1, Math.max(0, (84 - tl.getBoundingClientRect().top) / total));
-      var q = Math.min(1, Math.max(0, (p - 0.02) / 0.9));
-      setActive(Math.min(n - 1, Math.floor(q * n)));
-    };
+    var timer = null, hover = false, seen = false, DELAY = 3000;
+    var next = function () { setActive((cur + 1) % n); };
+    var stop = function () { clearInterval(timer); timer = null; };
+    var start = function () { stop(); if (reduce || hover || !seen) return; timer = setInterval(next, DELAY); };
     fill.style.transition = 'width .7s cubic-bezier(.22,.8,.24,1)';
-    addEventListener('scroll', tick, { passive: true }); addEventListener('resize', tick); tick();
+    setActive(0);
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (es) { seen = es[0].isIntersecting; start(); }, { threshold: 0.35 }).observe(tl);
+    } else { seen = true; start(); }
+    tl.addEventListener('mouseenter', function () { hover = true; stop(); });
+    tl.addEventListener('mouseleave', function () { hover = false; start(); });
     nodes.forEach(function (nd, i) {
       nd.style.cursor = 'pointer';
-      nd.addEventListener('click', function () {
-        if (!mq.matches) return;
-        var total = tl.offsetHeight - $('.tl-sticky', tl).offsetHeight, y = tl.getBoundingClientRect().top + scrollY - 84;
-        scrollTo({ top: y + (((i + 0.5) / n) * 0.9 + 0.04) * total, behavior: reduce ? 'auto' : 'smooth' });
-      });
+      nd.addEventListener('click', function () { setActive(i); start(); });
     });
   }
 

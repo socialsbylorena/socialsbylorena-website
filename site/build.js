@@ -33,7 +33,7 @@ const svg = (n, cls = '') => `<svg class="ico ${cls}" viewBox="0 0 24 24" fill="
 const stepIcons = ['hello', 'form', 'compass', 'film', 'check', 'up', 'chat'];
 
 // Wörter in Headlines für das Einfahren umschließen
-const words = (t) => esc(t).split(' ').map((w) => `<span class="w"><span class="wi">${w}</span></span>`).join(' ');
+const words = (t) => String(t).split('\n').map((l) => esc(l).split(' ').map((w) => `<span class="w"><span class="wi">${w}</span></span>`).join(' ')).join('<br>');
 const head = (eyebrow, title, extra = '') => `
       <header class="sec-head ${extra}">
         <p class="eyebrow reveal">${esc(eyebrow)}</p>
@@ -112,7 +112,7 @@ function render(c, lang) {
 <meta property="og:url" content="${SITE}${base}/">
 <meta property="og:image" content="${SITE}/images/hero-1.jpg">
 <link rel="icon" href="/images/favicon.png" type="image/png">
-<link rel="preload" href="/assets/fonts/PlayfairDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/playfair-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/css/styles.css">
 <script type="application/ld+json">${JSON.stringify(jsonld)}</script>
 <script>document.documentElement.classList.add('js')</script>
@@ -128,7 +128,7 @@ function render(c, lang) {
       <div class="lang" role="group" aria-label="Sprache / Language">
         <a href="/" ${de ? 'aria-current="true"' : ''} hreflang="de" lang="de" title="${esc(a.langDe)}">DE</a><i aria-hidden="true">|</i><a href="/en/" ${de ? '' : 'aria-current="true"'} hreflang="en" lang="en" title="${esc(a.langEn)}">EN</a>
       </div>
-      <a class="btn btn--sm nav-cta" href="#kontakt">${esc(nav.cta)}</a>
+      <a class="btn btn--sm nav-cta" href="${CAL_LINK}" target="_blank" rel="noopener">${esc(nav.cta)}</a>
       <button class="burger" id="burger" aria-expanded="false" aria-controls="nav-links" aria-label="${esc(nav.menu)}"><span></span><span></span></button>
     </div>
   </div>
@@ -144,7 +144,7 @@ function render(c, lang) {
     <h1 class="h1 h1--light" data-split>${words(h.title)}</h1>
     <p class="hero-sub reveal">${esc(h.sub)}</p>
     <div class="hero-actions reveal">
-      <div class="hero-btns"><a class="btn btn--light" href="#kontakt">${esc(h.cta)} ${svg('arrow', 'btn-ico')}</a><a class="btn btn--ghost" href="mailto:lb@socialsbylorena.com">${esc(h.cta2)}</a></div>
+      <div class="hero-btns"><a class="btn btn--light" href="${CAL_LINK}" target="_blank" rel="noopener">${esc(h.cta)} ${svg('arrow', 'btn-ico')}</a><a class="btn btn--ghost" href="mailto:lb@socialsbylorena.com">${esc(h.cta2)}</a></div>
       <p class="trust">${stars(a.rating)}<span>${esc(h.trust)}</span></p>
     </div>
   </div>
