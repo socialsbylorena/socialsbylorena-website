@@ -6,6 +6,7 @@ const ROOT = __dirname;
 const DIST = path.join(ROOT, 'dist');
 const SITE = 'https://socialsbylorena.com';
 const CAL = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1Q0AQjMYLyxXIBxzxRn_-DG8yFVFCI0eLqEIePxVlgabGEev_OtlBa3I_4yR5f6J8RwqbrVKcY?gv=true';
+const BUILD_ID = Date.now().toString(36);
 const CAL_LINK = 'https://calendar.app.google/oPzhh3n4ErNP8d8t5';
 
 const esc = (s) => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -113,7 +114,7 @@ function render(c, lang) {
 <meta property="og:image" content="${SITE}/images/hero-1.jpg">
 <link rel="icon" href="/images/favicon.png" type="image/png">
 <link rel="preload" href="/assets/fonts/playfair-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="stylesheet" href="/assets/css/styles.css?v=${BUILD_ID}">
 <script type="application/ld+json">${JSON.stringify(jsonld)}</script>
 <script>document.documentElement.classList.add('js')</script>
 </head>
@@ -328,7 +329,7 @@ function render(c, lang) {
   <div class="dlg-body">${read('partials/legal-dsg.html')}</div>
 </dialog>
 
-<script src="/assets/js/main.js" defer></script>
+<script src="/assets/js/main.js?v=${BUILD_ID}" defer></script>
 <div class="consent-banner" id="consent" role="dialog" aria-live="polite" hidden>
   <p>${esc(c.consent.text)} <button type="button" class="link" data-open="dlg-dsg">${esc(f.privacy)}</button></p>
   <div class="consent-actions"><button type="button" class="btn btn--sm" id="consent-yes">${esc(c.consent.accept)}</button><button type="button" class="btn btn--sm" id="consent-no">${esc(c.consent.decline)}</button></div>

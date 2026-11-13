@@ -14,7 +14,7 @@
   },
   "hero": {
     "eyebrow": "Social Media for Tour Operators, Hotels & Travel Brands",
-    "title": "Make sure your guests love you before they book.",
+    "title": "Make sure your customers love you before they book.",
     "sub": "We turn your channels into a digital experience. Through authentic content and active community building, we strengthen your brand and naturally drive more bookings.",
     "cta": "Book Discovery Call",
     "cta2": "Send us an Email",
@@ -40,13 +40,13 @@
         "text": "Christian (Sales) keeps the processes running smoothly behind the scenes."
       }
     ],
-    "intro": "Traveling the world as digital nomads since 2022, we book our stays exactly like your customers do: inspired by social media. We bring this authentic guest perspective into our work.",
+    "intro": "Traveling the world as digital nomads since 2022, we book our stays exactly like your customers do: inspired by social media. We bring this authentic customer perspective into our work.",
     "outro": "Your dream team for direct communication and a strong digital presence – no anonymous agency structures."
   },
   "leistungen": {
     "eyebrow": "Our Services",
     "title": "Everything you need.",
-    "intro": "We offer a complete Done-For-You social media management. You provide the raw footage, we handle the strategy, content, posting, and community. We turn your profile into a daily inspiration for your dream guests.",
+    "intro": "We offer a complete Done-For-You social media management. You provide the raw footage, we handle the strategy, content, posting, and community. We turn your profile into a daily inspiration for your dream customers.",
     "tabs": [
       {
         "label": "Strategy & Research",
@@ -125,7 +125,7 @@
       },
       {
         "title": "Community & Analysis",
-        "text": "We engage with your guests and continuously optimize the strategy."
+        "text": "We engage with your customers and continuously optimize the strategy."
       }
     ]
   },
