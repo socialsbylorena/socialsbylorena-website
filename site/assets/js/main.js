@@ -82,17 +82,15 @@
       cards.forEach(function (c, j) { c.classList.toggle('active', j === i); });
       fill.style.width = (i / (n - 1) * 100) + '%';
     };
-    var timer = null, hover = false, seen = false, DELAY = 3000;
+    var timer = null, seen = false, DELAY = 3000;
     var next = function () { setActive((cur + 1) % n); };
     var stop = function () { clearInterval(timer); timer = null; };
-    var start = function () { stop(); if (reduce || hover || !seen) return; timer = setInterval(next, DELAY); };
+    var start = function () { stop(); if (!seen) return; timer = setInterval(next, DELAY); };
     fill.style.transition = 'width .7s cubic-bezier(.22,.8,.24,1)';
     setActive(0);
     if ('IntersectionObserver' in window) {
-      new IntersectionObserver(function (es) { seen = es[0].isIntersecting; start(); }, { threshold: 0.35 }).observe(tl);
+      new IntersectionObserver(function (es) { seen = es[0].isIntersecting; start(); }, { threshold: 0.1 }).observe(tl);
     } else { seen = true; start(); }
-    tl.addEventListener('mouseenter', function () { hover = true; stop(); });
-    tl.addEventListener('mouseleave', function () { hover = false; start(); });
     nodes.forEach(function (nd, i) {
       nd.style.cursor = 'pointer';
       nd.addEventListener('click', function () { setActive(i); start(); });
